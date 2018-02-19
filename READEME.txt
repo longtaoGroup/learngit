@@ -1,9 +1,9 @@
 git is a version controler system.
 git is free software.
 git file update.
-aaa
-bbb
-ccc
 add 2018/02/13
 git has a mutable index called stage
 aaa
+bbb
+ccc
+
