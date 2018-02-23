@@ -21,4 +21,7 @@ mmnnoo
 预计还有1天完工
 branch modified push remote origin branch branche
 this is test file .
+比较差异使用git diff命令，比较暂存区和工作区的区别；
+git diff --cached 比较暂存区和历史区的差异；
+git diff master 比较的是历史区和工作区的差异；
 
