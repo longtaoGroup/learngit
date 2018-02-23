@@ -25,3 +25,5 @@ this is test file .
 git diff --cached 比较暂存区和历史区的差异；
 git diff master 比较的是历史区和工作区的差异；
 
+--这处修改时发生再代码被stash之后。
+
