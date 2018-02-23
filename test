@@ -1,10 +1,3 @@
-aaaaaaa 10:41
-bbbbbbb 10:43
-update this file;
-branche modify 201802181020;
-xxxxxyyyyy;
-master modifhy pm201802181532;
-branche modify pm201802181536;
 中国山西阳泉
 ---这里是stash 后处理bug信息
 
@@ -14,11 +7,6 @@ this is master file ,this modified is belone to master;
 201802190848 branch modified;
 201802190942 branch modified;
 -----modify
-ddeeff
-gghhii
-jjkkll
-mmnnoo
-预计还有1天完工
 branch modified push remote origin branch branche
 this is test file .
 比较差异使用git diff命令，比较暂存区和工作区的区别；
@@ -32,5 +20,6 @@ git stash 命令使用，暂存修改内容，git stash list查看暂存列表�
 //>>>>>>> Stashed changes
 git stash 后做修改并提交代码后，再通过git stash pop 将暂时存储的代码拉取回来，会与现有的代码进行合并，出现了冲突。
 
-=============201802232207==========2
+从本地创建远程分支：git push origin dev:remotebranch 由本地dev创建远程remotebranch分支
+删除远程分支：git push origin  :remotebranch 由''覆盖远程remotebranch分支
 
