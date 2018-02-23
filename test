@@ -25,5 +25,11 @@ this is test file .
 git diff --cached 比较暂存区和历史区的差异；
 git diff master 比较的是历史区和工作区的差异；
 
+//<<<<<<< Updated upstream
 --这处修改时发生再代码被stash之后。
+//=======
+git stash 命令使用，暂存修改内容，git stash list查看暂存列表，git stash pop拉取暂存数据，并删除暂存信息；
+//>>>>>>> Stashed changes
+git stash 后做修改并提交代码后，再通过git stash pop 将暂时存储的代码拉取回来，会与现有的代码进行合并，出现了冲突。
+
 
